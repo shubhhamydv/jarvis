@@ -1,0 +1,10 @@
+# For Python projects, create .gitignore
+echo "__pycache__/
+*.py[cod]
+*.env
+.env
+venv/
+.venv/
+*.log
+.DS_Store
+*.pyc" > .gitignore
